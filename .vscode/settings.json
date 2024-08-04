@@ -2,6 +2,15 @@
   "files.associations": {
     "*.jsx": "javascriptreact",
     "*.cpp": "cpp",
-    "algorithm": "c"
+    "algorithm": "c",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "regex": "cpp",
+    "utility": "cpp",
+    "valarray": "cpp"
   }
 }
