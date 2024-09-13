@@ -20,3 +20,20 @@ void leftRotate(vector<int> &arr, int n , int d){
     
 
 }
+
+void Reverse(vector<int> &arr, int start, int end){
+    while(start <= end){
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        start++;
+        end--;
+    }
+}
+
+
+void leftRotateOptimal(vector<int> &arr, int n, int d){
+    Reverse(arr, 0, d);
+    Reverse(arr, d, n);
+    Reverse(arr, 0, n);
+}
