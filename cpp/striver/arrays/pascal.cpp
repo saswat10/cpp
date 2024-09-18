@@ -7,7 +7,7 @@ vector<int> generateRow(int row)
     vector<int> ansRow;
     ansRow.push_back(1);
 
-    for (int col = 0; col < row; col++)
+    for (int col = 1; col < row; col++)
     {
         ans = ans * (row - col);
         ans = ans / col;
@@ -21,7 +21,7 @@ vector<vector<int>> pascalTriangle(int N)
 {
     vector<vector<int>> ans;
 
-    for (int i = 0; i < N; i++)
+    for (int i = 1; i <= N; i++)
     {
         ans.push_back(generateRow(i));
     }
