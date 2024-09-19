@@ -65,7 +65,7 @@ vector<vector<int>> tripletOptimal(int n, vector<int> &num){
                 k--;
                 // if same as previous then keep on moving
                 while(j<k && num[j] == num[j-1]) j++;
-                while(j<k && num[k] == num[k-1]) k--;
+                while(j<k && num[k] == num[k+1]) k--; // keep track the previous
             }
         }
     }
