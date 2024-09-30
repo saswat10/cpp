@@ -21,7 +21,7 @@ public:
         vector<int> pre, in, post;
         if(root == nullptr) return;
         while(!st.empty()){
-            auto it = st.top();
+            auto it = st.top(); 
             st.pop();
 
 
