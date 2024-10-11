@@ -11,7 +11,7 @@ void leftRotate(vector<int> &arr, int n , int d){
     }
 
     for(int i = d; i< n; i++){
-        arr[i-d] = arr[i];
+        arr[i-d] = arr[i];  
     }
     for (int i = n-d; i < n; i++)
     {
