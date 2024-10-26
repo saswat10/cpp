@@ -1,16 +1,11 @@
-
-/*
-  This program will only print one array
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
+// This program will only print one array
 
 int printAll(int ind, int arr[], int s, int sum, int n) {
   if (ind == n) {
     if (s == sum)
       return 1;
-
     else
       return 0;
   }
