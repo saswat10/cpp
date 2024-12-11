@@ -35,4 +35,8 @@ class DisjointSet{
       }
     }
 
+    void unionBySize(int u, int v){
+      
+    }
+
 };
